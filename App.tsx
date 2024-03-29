@@ -6,7 +6,7 @@ import {CounterM3Screen} from './src/presentation/screens/CounterM3Screen';
 export const App = () => {
   return (
     <PaperProvider>
-      <SafeAreaView style={{flex: 1}}>
+      <SafeAreaView style={{flex: 1, backgroundColor:"white"}}>
         {/* <HelloWorldScreen name="Mauricio Monzón" /> */}
         {/*  <CounterScreen /> */}
         <CounterM3Screen />
