@@ -3,13 +3,13 @@ import {Pressable, Text, Platform, StyleSheet} from 'react-native';
 interface Props {
   label: string;
   onPress?: () => void;
-  onLongPres?: () => void;
+  onLongPress?: () => void;
 }
-export const PrimaryButton = ({label, onPress, onLongPres}: Props) => {
+export const PrimaryButton = ({label, onPress, onLongPress}: Props) => {
   return (
     <Pressable
       onPress={() => onPress && onPress()}
-      onLongPress={() => onLongPres && onLongPres()}
+      onLongPress={() => onLongPress && onLongPress()}
       style={({pressed}) => [styles.button, pressed && styles.buttonPress]}>
       <Text style={{color: Platform.OS === 'android' ? 'white' : '#4746AB'}}>
         {label}
