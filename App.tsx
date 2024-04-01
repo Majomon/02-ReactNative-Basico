@@ -16,7 +16,7 @@ export const App = () => {
         {/*  <CounterScreen /> */}
         {/*   <CounterM3Screen /> */}
         {/*  <BoxObjectModelScreen /> */}
-        <DimensionScreen />{/*  */}
+        <DimensionScreen />
       </SafeAreaView>
     </PaperProvider>
   );
