@@ -15,7 +15,7 @@ export const App = () => {
         {/* <HelloWorldScreen name="Mauricio Monzón" /> */}
         {/*  <CounterScreen /> */}
         {/*   <CounterM3Screen /> */}
-         <BoxObjectModelScreen />
+        {/*  <BoxObjectModelScreen /> */}
         <DimensionScreen />
       </SafeAreaView>
     </PaperProvider>
