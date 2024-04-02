@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#28425B',
-    //Todo tarea
+    justifyContent:"center"
   },
   box: {
     width: 100,
@@ -26,10 +26,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#5856D6',
   },
   orangeBox: {
-    flex:1,
+/*     flex:1, */
     backgroundColor: '#F0A23B',
   },
   blueBox: {
+    width:"100%",
     backgroundColor: '#28C4D9',
   },
 });
