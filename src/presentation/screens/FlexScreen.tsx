@@ -17,14 +17,14 @@ const styles = StyleSheet.create({
   },
   box1: {
     backgroundColor: '#5856D6',
-    flex: 1,  //1 + 1 + 1 = 3  ->  1/3
+    flex: 1,  //1 + 2 + 3 = 6  ->  1/6
   },
   box2: {
     backgroundColor: '#4240a2',
-    flex: 2,  //1 + 1 + 1 = 3  ->  1/3
+    flex: 2,  //1 + 2 + 3 = 6  ->  2/6
   },
   box3: {
     backgroundColor: '#2e2d71',
-    flex: 3,  //1 + 1 + 1 = 3  ->  1/3
+    flex: 3,  //1 + 2 + 3 = 6  ->  3/6
   },
 });
