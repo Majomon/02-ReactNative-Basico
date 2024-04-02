@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     /*   flexDirection:"row",
     justifyContent:"space-between" */
+    flexDirection: 'row',
   },
   box: {
     width: 100,
@@ -30,13 +31,14 @@ const styles = StyleSheet.create({
     /*     alignSelf:"flex-end", */
     /*     alignSelf: 'flex-end', */
     backgroundColor: '#5856D6',
-    top: 100,
+    /*    top: 100, */
   },
   orangeBox: {
     /*     flex: 2, */
     /*     flex:1, */
     backgroundColor: '#F0A23B',
-    right: -100,
+    /*  right: -100, */
+    top:50
   },
   blueBox: {
     /*     flex: 4, */
