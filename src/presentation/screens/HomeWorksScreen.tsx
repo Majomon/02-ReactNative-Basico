@@ -34,9 +34,9 @@ const styles = StyleSheet.create({
   },
   orangeBox: {
     /*     flex: 2, */
-
     /*     flex:1, */
     backgroundColor: '#F0A23B',
+    right: -100,
   },
   blueBox: {
     /*     flex: 4, */
