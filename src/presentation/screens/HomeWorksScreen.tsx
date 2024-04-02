@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 
 export const HomeWorksScreen = () => {
   return (
@@ -14,31 +14,32 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#28425B',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
+    alignItems: 'center',
     /*   flexDirection:"row",
     justifyContent:"space-between" */
   },
   box: {
-    /*  width: 100,
-    height: 100, */
+    width: 100,
+    height: 100,
     borderWidth: 10,
     borderColor: 'white',
   },
   purpleBox: {
-    flex: 2,
+    /*     flex: 2, */
 
     /*     alignSelf:"flex-end", */
     /*     alignSelf: 'flex-end', */
     backgroundColor: '#5856D6',
   },
   orangeBox: {
-    flex: 2,
+    /*     flex: 2, */
 
     /*     flex:1, */
     backgroundColor: '#F0A23B',
   },
   blueBox: {
-    flex: 4,
+    /*     flex: 4, */
     /*    alignSelf:"center", */
     /*     width:"100%", */
     backgroundColor: '#28C4D9',
