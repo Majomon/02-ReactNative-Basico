@@ -9,6 +9,7 @@ import {PositionScreen} from './src/presentation/screens/PositionScreen';
 import {FlexScreen} from './src/presentation/screens/FlexScreen';
 import {FlexDirectionScreen} from './src/presentation/screens/FlexDirectionScreen';
 import {FlexWrapScreen} from './src/presentation/screens/FlexWrapScreen';
+import {HomeWorksScreen} from './src/presentation/screens/HomeWorksScreen';
 export const App = () => {
   return (
     <PaperProvider
@@ -24,7 +25,8 @@ export const App = () => {
         {/*  <PositionScreen /> */}
         {/*     <FlexScreen /> */}
         {/*  <FlexDirectionScreen /> */}
-        <FlexWrapScreen />
+        {/*        <FlexWrapScreen /> */}
+        <HomeWorksScreen />
       </SafeAreaView>
     </PaperProvider>
   );
