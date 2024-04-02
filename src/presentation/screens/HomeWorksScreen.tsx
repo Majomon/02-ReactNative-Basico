@@ -27,10 +27,10 @@ const styles = StyleSheet.create({
   },
   purpleBox: {
     /*     flex: 2, */
-
     /*     alignSelf:"flex-end", */
     /*     alignSelf: 'flex-end', */
     backgroundColor: '#5856D6',
+    top: 100,
   },
   orangeBox: {
     /*     flex: 2, */
