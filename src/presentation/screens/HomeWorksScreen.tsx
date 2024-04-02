@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     /*     flex:1, */
     backgroundColor: '#F0A23B',
     /*  right: -100, */
-    top:50
+    top: 50,
   },
   blueBox: {
     /*     flex: 4, */
