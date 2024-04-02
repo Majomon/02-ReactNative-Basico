@@ -14,25 +14,28 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#28425B',
-    justifyContent:"center"
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   box: {
     width: 100,
     height: 100,
-    borderWidth:10,
-    borderColor:"white"
+    borderWidth: 10,
+    borderColor: 'white',
   },
   purpleBox: {
-    alignSelf:"flex-end",
+    /*     alignSelf:"flex-end", */
+    alignSelf: 'flex-end',
     backgroundColor: '#5856D6',
   },
   orangeBox: {
-/*     flex:1, */
+    /*     flex:1, */
     backgroundColor: '#F0A23B',
   },
   blueBox: {
-    alignSelf:"center",
-/*     width:"100%", */
+    /*    alignSelf:"center", */
+    /*     width:"100%", */
     backgroundColor: '#28C4D9',
+    alignSelf: 'flex-start',
   },
 });
